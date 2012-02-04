@@ -1,6 +1,6 @@
 arduino-ecg is a heartbeat detector for ECG signals measured with Arduino
 devices. It detects heartbeats and prints them to the serial stream. The
-analysis of respiratory variation is of QRS amplitude supported, so each
+analysis of the respiratory variation of QRS amplitude supported, so each
 heartbeat comes with an estimation of respiration phase.
 
 Run "bash build.sh" in src_test to build a Python wrapper for the algorithm.
